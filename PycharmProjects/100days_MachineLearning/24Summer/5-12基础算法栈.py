@@ -12,11 +12,11 @@ class MyStack(object):
         self.stack.append(number)
 
     def Pop(self):
-        if self.IsEmpty():print("Stack  empty")
+        if self.IsEmpty():print("Stack is empty")
         else:self.stack.pop()
 
     def Display(self):
-        if self.IsEmpty():print("Stack  empty")
+        if self.IsEmpty():print("Stack is empty")
         else:return self.stack
 
     def Top(self):
