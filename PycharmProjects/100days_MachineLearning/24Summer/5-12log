@@ -1,0 +1,33 @@
+5-12 Log
+Git 命令：
+    git init -- 创建.git文件，装有负责管理的文件，绿色为管理的文件，红色为未管理的文件
+    git add -- 添加文件进入版本变更区域
+    git remote add origin --  添加文件进入远程版本仓库，origin指代远程仓库
+    git commit -m ""  --  把添加的文件提交
+    git status -- 查看分支的状态
+    git config --global user.name   输入添加文件的用户名
+    git config --global user.email  输入添加文件的用户邮箱
+    git log --  查看git日志
+
+    git stash -- 将部分未完成开发的文件暂存到一个区域
+    git stash pop -- 将未开发完成的文件拉回来
+
+    git checkout -- 调整到不同的分支   git checkout master
+    git merge --  合并分支
+    git branch -b  -- 创建并且进入分支
+    git branch -d  -- 删除分支
+
+    git push origin main -- 向origin中推入main分支
+
+
+    git rebase -- 合并分支    与 merge的区别：rebase是单分支，不会分差
+
+    git clone --  克隆整个文件
+
+    git pull -- 拉取文件
+
+Linux 命令：
+    touch -- 创建文件
+
+
+
