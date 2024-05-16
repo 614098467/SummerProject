@@ -1,0 +1,7 @@
+5-16 Log
+
+    基于list完成顺序表
+            list中
+                remove （index，value）
+                pop （index）
+                insert （index，value）
