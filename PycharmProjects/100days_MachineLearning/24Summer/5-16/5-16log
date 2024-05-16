@@ -5,3 +5,15 @@
                 remove （index，value）
                 pop （index）
                 insert （index，value）
+
+     Python 函数：
+        set 用于给列表去重
+
+    刷题心得：
+        将list中的数字拆开，例如123，拆成1，2，3
+        nums = [123,234]
+        for num in range(len(nums)):
+            for s in str(num):
+                nums2.append(int(s))
+       先拆成str，再转换为int
+
