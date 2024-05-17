@@ -2,3 +2,44 @@
     单向链表
 
 
+
+刷题心得：
+    int转换二进制为10进制
+        int（value,2) : value->str
+
+    在连续列表中删除指定的target值，加入哨兵节点，可以简化边界情况
+    LeetCode203:
+    # Definition for singly-linked list.
+    # class ListNode:
+    #     def __init__(self, val=0, next=None):
+    #         self.val = val
+    #         self.next = next
+    class Solution:
+    def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:
+        if head == None:
+            return head
+        sentinel = ListNode(0)
+        sentinel.next = head
+        prev = sentinel
+        current = prev.next
+        while current is not None:
+            if current.val == val:
+                prev.next = current.next
+            else:
+                prev = prev.next
+            current = current.next
+        return sentinel.next
+
+
+
+
+
+
+
+
+
+
+
+
+
+
