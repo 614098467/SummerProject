@@ -1,4 +1,7 @@
 
+'''
+基于顺序表
+完成栈'''
 class MyStack(object):
     def __init__(self):
         self.stack = []

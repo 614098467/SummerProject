@@ -7,3 +7,7 @@
     list.pop(index) :
 
 
+
+队列 collections 库中 deque():
+
+    
