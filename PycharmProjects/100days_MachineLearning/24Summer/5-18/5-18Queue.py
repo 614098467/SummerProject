@@ -36,7 +36,6 @@ class MyQueue(object):
 
 
 
-
 queue = MyQueue()
 queue.Push(2)
 queue.Push(4)

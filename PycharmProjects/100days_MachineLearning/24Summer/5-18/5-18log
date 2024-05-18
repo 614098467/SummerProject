@@ -1,11 +1,11 @@
 5-18 Log
 
 
---使用list写栈
-
+栈：
+1.Stack.py: 使用顺序表完成栈
+2.Stack2.py: 使用单链表完成栈
     list.remove(value) :
     list.pop(index) :
-
 
 
 队列 collections 库中 deque():
