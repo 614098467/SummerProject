@@ -58,5 +58,6 @@ stack.Remove(2)
 
 stack.RemoveIndex(2)
 
+
 print(stack.GetTop())
 print(stack)

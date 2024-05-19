@@ -4,10 +4,20 @@
 栈：
 1.Stack.py: 使用顺序表完成栈
 2.Stack2.py: 使用单链表完成栈
+3.Queue.py: 使用顺序表完成队列
+4.Queue2.py: 使用单链表完成队列
+
+
     list.remove(value) :
     list.pop(index) :
+队列和栈的使用
 
-
-队列 collections 库中 deque():
+collections 库中 deque:
+    deque : append : 在右边加入
+            appendleft : 在左边加入
+            pop：从右边弹出
+            popleft：从左边弹出
+            count（val）: 返回值在que中出现的次数
+            index（val）：返回值在que中出现的下标
 
     
