@@ -1,0 +1,48 @@
+5-20 log：
+- 计算机网络
+    PSTN：
+
+    Performan Measures：
+        1.Latency  （DEC）
+        2.Throughput （BPS） bites per second
+
+
+
+    DHCP：Dynamic Host Configuration Protocol 动态主机配置协议
+
+
+    OSI七层（Open Systems Interconnection）：
+    1.	物理层（Physical Layer）：
+	•	功能：负责物理传输介质上的比特流传输，定义了电压、电缆规格、连接器和数据速率等物理参数。
+	•	设备：网络电缆、集线器（Hub）、中继器（Repeater）、网络接口卡（NIC）。
+	2.	数据链路层（Data Link Layer）：
+	•	功能：提供可靠的点对点数据传输，定义了帧格式、物理地址（MAC地址）和错误检测机制。
+	•	子层：逻辑链路控制（LLC）子层和介质访问控制（MAC）子层。
+	•	设备：交换机（Switch）、网桥（Bridge）。
+	3.	网络层（Network Layer）：
+	•	功能：负责数据包的路径选择和转发，实现不同网络之间的数据传输，使用逻辑地址（IP地址）。
+	•	协议：IP（Internet Protocol）、ICMP（Internet Control Message Protocol）、ARP（Address Resolution Protocol）。
+	•	设备：路由器（Router）。
+	4.	传输层（Transport Layer）：
+	•	功能：提供端到端的通信服务，包括数据分段、传输控制和错误恢复，确保数据完整性和顺序。
+	•	协议：TCP（Transmission Control Protocol）、UDP（User Datagram Protocol）。
+	•	设备：通常在软件中实现，不依赖于特定硬件。
+	5.	会话层（Session Layer）：
+	•	功能：管理和控制应用程序之间的会话，建立、维护和终止会话，包括会话恢复和对话控制。
+	•	协议：NetBIOS、RPC（Remote Procedure Call）。
+	6.	表示层（Presentation Layer）：
+	•	功能：处理数据的表示和转换，包括数据加密、解密、压缩、解压缩和数据格式转换，确保数据在不同系统间的兼容性。
+	•	协议：TLS（Transport Layer Security）、SSL（Secure Sockets Layer）。
+	7.	应用层（Application Layer）：
+	•	功能：为用户和应用程序提供网络服务和接口，直接与用户交互。
+	•	协议：HTTP（HyperText Transfer Protocol）、FTP（File Transfer Protocol）、SMTP（Simple Mail Transfer Protocol）、DNS（Domain Name System）、Telnet。
+
+
+
+
+
+
+
+    -二叉搜索树
+
+
