@@ -1,0 +1,7 @@
+RTH101, Monday, 10 am
+RTH101, Wednesday, 12 pm
+RTH204, Friday, 4 pm
+RTH419, Saturday, 2 pm
+RTH333, Sunday, 5 pm
+RTH101, Monday, 1 pm
+RTH204, Tuesday, 12 pm

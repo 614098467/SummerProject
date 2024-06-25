@@ -1,0 +1,7 @@
+EEB201, Thursday, 12 pm
+EEB201, Thursday, 10 am
+EEB201, Friday, 4 pm
+EEB333, Wednesday, 2 pm
+EEB329, Sunday, 8 am
+EEB333, Wednesday, 10 am
+EEB101, Saturday, 11 am
