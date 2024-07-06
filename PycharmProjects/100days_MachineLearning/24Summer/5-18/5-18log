@@ -19,5 +19,15 @@ collections 库中 deque:
             popleft：从左边弹出
             count（val）: 返回值在que中出现的次数
             index（val）：返回值在que中出现的下标
+String 中：
+    "\t":空格
+    "\n":换行
+    字符串常用操作：
+        1.' '.join(['Hello','world'])
+        2.split():将字符串按照空格分割成列表
+        3.
+
+
+
 
     

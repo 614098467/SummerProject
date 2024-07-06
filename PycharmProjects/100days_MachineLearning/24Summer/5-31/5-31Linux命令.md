@@ -152,7 +152,7 @@ tail命令用来查看文件后n行
     1.多行变为单行
 
     2.拆分：
-        echo "alex,mjj,cunzhang,gezhou"|xargs -d ","
+        ''' echo "alex,mjj,cunzhang,gezhou"|xargs -d ","'''
 
     3.-i 用{}代替文本
     将当前所有的txt文件，移动到alltemptxt目录中
@@ -173,6 +173,7 @@ tail命令用来查看文件后n行
 第六列：文件修改时间
 
 第七列：文件名
+
 
 
     
