@@ -1,13 +1,36 @@
-from pandas import Series
+from pandas import DataFrame
 import numpy as np
 
-s1 = Series(data=[1,2,3,'four'],index=['a', 'b', 'c','d'])
-print(s1)
 
-s2 = Series(data = np.random.randint(0,100,size=(3,)))
-print(s2)
+dic = {
+    'alex':[100,50,123],
+    'bob':[130,115,133],
+    'cici':[120,130,114]
+}
+dic2 = {
+    'alex':[130,90,123],
+    'bob':[120,125,133],
+    'cici':[110,140,112]
+}
+
+qizhong = DataFrame(data = dic,index=['语文','数学','英语'])
+qimo = DataFrame(data = dic2,index=['语文','数学','英语'])
 
 
-dic = {'语文':100,'数学':200,'英语':1000}
-s3  = Series(data=dic)
-print(s3)
+## 平均值
+mean  = (qizhong + qimo) / 2
+print(mean)
+
+## alex 期中数学为0
+qizhong.loc['数学','alex'] = 0
+print(qizhong)
+
+### bob所有科目期中加100分
+qizhong.loc[:,'bob'] += 100
+print(qizhong)
+
+
+### 所有人加10分
+qizhong += 10
+print(qizhong)
+
